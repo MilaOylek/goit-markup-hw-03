@@ -194,7 +194,7 @@ display: block;
 /* section two */
 
 .container-two {
-     padding-top: 120px;
+     padding: 120px 0 120px;
     padding-bottom: 120px;
     padding-left: auto;
     padding-right: auto;
@@ -210,6 +210,7 @@ display: block;
     
 }
 .list-li {
+    margin-bottom: 8px;
     padding: 5px;
     width: 264px;
     height: 59px;
@@ -280,6 +281,7 @@ display: block;
 .list-team {
     background-color: #F4F4FD;
     display: flex;
+    gap: 24px;
     /* flex-direction: row;
     flex-wrap: wrap;  */
 }
@@ -303,6 +305,8 @@ display: block;
 
 .item-team {
     background-color: #fff;
+    margin-right: 24px;
+    margin-right: 0;
 }
 
 /* Section Portfolio */
@@ -310,16 +314,30 @@ display: block;
    border: 2px dashed #b45011;
 background-color: #fff;
 max-width: 1128px;
-  padding: 5px;
+  padding-top: 120px;
+  padding-bottom: 120px; 
   margin-left: auto;
   margin-right: auto;
 
  }
 
 img {
+    border-radius: 0px 0px 4px 4px;
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px;
+    border-top-right-radius: 4px; 
+    border-bottom-left-radius:4px;
   /* display: block; */
   max-width: 100%;
   /* flex-wrap: wrap; */
+}
+
+.mark-g {
+    padding: 32px 0;
+}
+
+.team-name {
+    text-align: center;
 }
 
 .list-portfolio {
@@ -329,11 +347,12 @@ img {
   flex-wrap: wrap;
   padding: 0;
   list-style: none;
-   
+     column-gap: 24px;
+
 }
 
 .li-ptf {
-    
+    margin-right: 24px;
     background-color: #fff;
 }
 
@@ -360,6 +379,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 72px; 
 }
 
 .port-txt {
@@ -396,7 +416,8 @@ background: #2e2f42;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-stud {
