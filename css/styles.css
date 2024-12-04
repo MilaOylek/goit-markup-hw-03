@@ -37,10 +37,6 @@ padding-left: 15px;
 padding-right: 15px;
 min-height: 20%;
 }
-/* .header-container {
-    background-color: green;
-} */
- 
 
 /* header */
 .header-container {
@@ -149,6 +145,7 @@ display: block;
 
 .section-one {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .section-text {
@@ -195,7 +192,7 @@ display: block;
 
 /* section two */
 
-.container-two {
+.sectıon-two {
      padding: 120px 0;
 }
 
@@ -245,13 +242,12 @@ display: block;
  overflow: hidden;
  }
 
-
 /* section team */
-.container-three {
+
+.section-team {
      padding: 120px 0;
     display: block;
 }
-
 
 .section-two {
     background-color: #f4f4fd;
@@ -335,14 +331,16 @@ img {
   /* flex-wrap: wrap; */
 }
 
-.mark-g {
-    padding: 32px 0;
+.list-team li:last-child {
+  margin-right: 0;
 }
-
-.team-name {
-    text-align: center;
+.card-team {
+  border-radius: 0 0 4px 4px;
 }
-
+.list-team .card-team {
+  margin-right: 24px;
+  width: calc((100% - 72px) / 4);
+}
 /* section portfolio */
 
 .container-four {
@@ -353,15 +351,19 @@ img {
 }
 
 .list-portfolio {
+    margin-top: 0;
+    margin-bottom: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    flex-wrap: wrap;
     padding: 0;
     list-style: none;
     column-gap: 24px;
     row-gap: 48px;
 
+}
+.list-portfolio .li-ptf {
+    width: calc((100% - 48p x) / 3);
 }
 
 .li-ptf {
@@ -369,12 +371,25 @@ img {
     background-color: #fff;
 }
 
-.bank {
-    width: calc((100% - 48px) / 3); 
+.list-portfolio .li {
+    margin-bottom: 48px;
+}
+
+.list-portfolio .li-ptf:nth-child(1n + 4) {
+  margin-bottom: 0;
+
+.list-portfolio .li:not(:nth-child(3n)) {
+    margin-right: 24px;
+}
+
+.list-portfolio .li::nth-of-type(3n + 3) {
+  margin-right: 0;
 }
 
 .section-portfolio {
     background-color: #f4f4fd;
+    /* padding-top: 120px;
+    padding-bottom: 120px;  */
 }
 .our-port {
     font-weight: 700;
@@ -384,9 +399,7 @@ img {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    /* padding: 2px 500px 20px 500px; */
-    /* margin-bottom: 72px;  */
-    /* max-width: 684px; */  
+    margin-bottom: 72px; 
 }
 
 .port-name {
