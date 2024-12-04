@@ -144,6 +144,7 @@ display: block;
 .container-one {
     width: 1440px;
     height: 587px;
+    padding: 188px 0;
 }
 .section-one {
     background-color: #2e2f42;
@@ -156,7 +157,7 @@ display: block;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    max-width: 560px;
+    max-width: 496px;
     padding-top: 162px;
     padding-bottom: 24px;
     margin-bottom: 8px;
@@ -195,11 +196,7 @@ display: block;
 
 .container-two {
      padding: 120px 0 120px;
-    padding-bottom: 120px;
-    padding-left: auto;
-    padding-right: auto;
-    /* justify-content: center; */
-    border: 2px dashed #b45011;
+     border: 2px dashed #b45011;
 
     /* display: flex; */
 }
@@ -225,6 +222,7 @@ display: block;
     letter-spacing: 0.02em;
     display: flex;
     justify-content: flex-start;
+     margin-bottom: 8px;
 }
 
 .strategy-text {
@@ -251,8 +249,7 @@ display: block;
 
 /* section team */
 .container-three {
-     padding-top: 120px;
-    padding-bottom: 120px;
+     padding: 120px 0;
     display: block;
 }
 
@@ -293,6 +290,7 @@ display: block;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-txt {
@@ -307,6 +305,11 @@ display: block;
     background-color: #fff;
     margin-right: 24px;
     margin-right: 0;
+    border-radius: 0px 0px 4px 4px; 
+}
+
+.mark-g .tom-f {
+     padding: 32px 0;
 }
 
 /* Section Portfolio */
@@ -327,8 +330,8 @@ img {
     border-top-right-radius: 0px;
     border-top-right-radius: 4px; 
     border-bottom-left-radius:4px;
-  /* display: block; */
-  max-width: 100%;
+    display: block; 
+  /* max-width: 100%; */
   /* flex-wrap: wrap; */
 }
 
