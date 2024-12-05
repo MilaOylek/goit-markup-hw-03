@@ -265,6 +265,11 @@ color: #2e2f42;
     flex-wrap: wrap; 
 }
 
+.card-team {
+    border-radius: 0 0 4px 4px;
+    padding: 32px 0;
+  }
+
 .team-name {
     font-weight: 500;
     font-size: 20px;
@@ -290,9 +295,7 @@ color: #2e2f42;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);  
 }
-.card-team {
-    border-radius: 0 0 4px 4px;
-  }
+
   .list-team .card-team {
     margin-right: 24px;
     width: calc((100% - 72px) / 4);
@@ -381,6 +384,12 @@ color: #2e2f42;
     margin-bottom: 72px; 
 }
 
+.portfolio-img-card {
+    padding: 32px 16px; 
+    border: 1px solid #e7e9fc;
+    border-top: none; 
+    /* margin-bottom: 8px;  */
+}
 .port-name {
     font-weight: 500;
     font-size: 20px;
